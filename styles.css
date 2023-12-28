@@ -5,6 +5,7 @@
     padding: 0;
     border: 1px solid red;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
   }
 
   /* hero */
@@ -117,6 +118,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px 0;
 }
 
 .quote blockquote,
@@ -129,3 +131,49 @@ li {
     font-style: italic;
     font-weight: 100;
 }
+.quote p {
+    font-weight: 900;
+    text-align: right;
+}
+/* qoute */
+
+/* cta */
+.cta {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.cta.container {
+    width: 80%;
+    justify-content: space-around;
+    padding: 40px 80px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+
+.cta button {
+    align-self: center;
+    background-color: #3b82f6;
+    color: white;
+    padding: 5px 30px;
+    font-weight: 500;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 2px;
+}
+/* cta */
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+/* footer */
